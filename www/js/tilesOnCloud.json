@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "name":"El Carmen",
+        "file_name":"el_carmen",
+        "download_url":"https://www.urbamapp.com/dl/ElCarmen_14-16.mbtiles",
+        "zone_id":"5938708f1e7e7b059287543d"
+    },
+    {
+        "id":2,
+        "name":"Ibarra",
+        "file_name":"ibarra",
+        "download_url":"https://www.urbamapp.com/dl/Ibarra_14-16.mbtiles",
+        "zone_id":"5938708f1e7e7b059287543d"
+    },
+    {
+        "id":3,
+        "name":"El Quinche",
+        "file_name":"el_quinche",
+        "download_url":"https://www.urbamapp.com/dl/Quito_Quinche__2_14-16.mbtiles",
+        "zone_id":"5938708f1e7e7b059287543d"
+    },
+    {
+        "id":4,
+        "name":"Santo Domingo",
+        "file_name":"santo_domingo",
+        "download_url":"https://www.urbamapp.com/dl/StoDomingo_14-16.mbtiles",
+        "zone_id":"597a524549842fb2294fb036"
+    },
+    {
+        "id":5,
+        "name":"tulcan",
+        "file_name":"tulcan",
+        "download_url":"https://www.urbamapp.com/dl/Tulcan_14-16.mbtiles",
+        "zone_id":"597a524549842fb2294fb036"
+    }
+]
+
+
+
+
+

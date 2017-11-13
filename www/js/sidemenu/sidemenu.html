@@ -1,0 +1,44 @@
+<ion-side-menus>
+    <!-- Left menu -->
+    <ion-side-menu side="left">
+        <ion-content class="sideMenuBackground">
+                <ion-list class="sideMenu-main">
+                        
+                    <a
+                        class="item item-icon-left"    
+                        ui-sref="main.mapa" 
+                        menu-close>
+                        <i class="ion-map"></i>
+                        Mapa
+                    </a>
+
+                    <a
+                        class="item item-icon-left"    
+                        ui-sref="main.tilestore" 
+                        menu-close>
+                        <i class="ion-bag"></i>
+                        Urbamapp TileStores
+                    </a>
+
+                    <a
+                        class="item item-icon-left"    
+                        menu-close
+                        ng-click="sidemenu.log_out()">
+                        <i class="ion-log-out"></i>
+                        LogOut
+                    </a>
+
+    
+                </ion-list> 
+        </ion-content>
+    </ion-side-menu>
+
+    <ion-side-menu-content drag-content="false">
+        <ion-nav-bar class="bar-dark">
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="mainContent"></ion-nav-view>
+    </ion-side-menu-content>
+</ion-side-menus>

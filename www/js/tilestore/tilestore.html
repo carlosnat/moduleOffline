@@ -1,0 +1,49 @@
+<ion-view view-title="Tile Store">
+        <ion-header-bar class="bar-stable">
+            <h1 class="title">Ionic Blank Starter</h1>
+        </ion-header-bar>
+    <ion-content padding="true">
+
+        <style>
+        .item-mbtiles-cloud{
+            display: flex;
+            justify-content: space-between;
+        }
+        .item-mbtiles-cloud > span{
+            font-weight: 100;
+            font-size: 0.7rem;
+            color: #a7a7a7;
+        }
+        .wrap-downloading-item{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap-downloading-item i{
+            color: yellowgreen;
+        }
+        .wrap-downloading-item ion-spinner{
+            position: absolute;
+            top: -14%;
+            left: -44%;
+        }
+        </style>
+
+        <h4>Tile store</h4>
+        <ion-list>
+            <ion-item class="item-mbtiles-cloud" ng-repeat="tile in store.tilesDisponibles" ng-click="store.descargar(tile)">
+                {{ tile.name }}
+                <span ng-if="tile.isDownloading">(Descargando mapa...)</span>
+                <i ng-show="tile.isInDisk" style="font-size: 1.4em;" class="icon ion-android-cloud-done"></i>
+                <div ng-if="tile.isDownloading" class="wrap-downloading-item">
+                    <i class="icon icon ion-android-cloud-done"></i>
+                    <ion-spinner icon="spiral"></ion-spinner>
+                </div>
+                
+                <i ng-show="!tile.isInDisk && !tile.isDownloading" style="font-size: 1.4em;" class="icon ion-ios-cloud-download-outline"></i>         
+                <span ng-if="tile.isDownloading" downaload-bar progress="store.downloadProgress"></span>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

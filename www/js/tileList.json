@@ -1,0 +1,35 @@
+[
+    {
+        "section":"norte",
+        "urlSection":"js/mapas/Todo_Quito_14-16.mbtiles",
+        "idZona":"597a524549842fb2294fb036",
+        "name":"Quito",
+        "bounds":[-0.2159,-78.5061,-0.1202,-78.4716],
+        "minZoom":14,
+        "maxZoom":16,
+        "defaultZoom":14,
+        "center":{"lat":-0.190187, "lng":-78.481721}
+    },
+    {
+        "section":"sur",
+        "urlSection":"js/mapas/testingThree.mbtiles",
+        "idZona":"",
+        "name":"Guayaquil",
+        "bounds":[-80.1024,-2.4018,-79.6547,-1.9270],
+        "minZoom":10,
+        "maxZoom":14,
+        "defaultZoom":10,
+        "center":{"lat":-2.1575, "lng":-79.8951}
+    },
+    {
+        "section":"norte",
+        "urlSection":"js/mapas/testingSix.mbtiles",
+        "idZona":"5938708f1e7e7b059287543d",
+        "name":"Quito",
+        "bounds":[-5.6925,-81.6064,1.9003,-74.0039],
+        "minZoom":0,
+        "maxZoom":16,
+        "defaultZoom":7,
+        "center":{"lat":-1.23037, "lng":-78.89282}
+    }
+]
